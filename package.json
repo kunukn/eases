@@ -1,12 +1,15 @@
 {
   "name": "eases-cdn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "easing equations available as CDN from unpkg.com/eases-cdn/",
   "main": "dist/eases.cjs.js",
   "module": "dist/eases.esm.js",
   "browser": "dist/eases.umd.js",
   "license": "MIT",
   "author": "Kunuk Nykjaer",
+  "files": [
+    "dist"
+  ],
   "dependencies": {},
   "devDependencies": {
     "buble": "^0.18.0",
