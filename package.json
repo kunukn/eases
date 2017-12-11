@@ -1,7 +1,7 @@
 {
   "name": "eases-cdn",
-  "version": "1.0.8",
-  "description": "grab bag of easing equations",
+  "version": "1.0.0",
+  "description": "easing equations available as CDN from unpkg.com/eases-cdn/",
   "main": "dist/eases.cjs.js",
   "module": "dist/eases.esm.js",
   "browser": "dist/eases.umd.js",
@@ -12,28 +12,12 @@
     "buble": "^0.18.0",
     "rollup": "^0.52.1",
     "rollup-plugin-buble": "^0.18.0",
-    "tape": "~2.13.2",
     "uglify-js": "^3.2.2"
   },
   "scripts": {
-    "test": "node test.js",
-    "dev": "beefy demo/index",
     "build": "rollup -c",
     "rollup-dev": "rollup -c -w",
     "minify": "uglifyjs dist/eases.umd.js --config-file uglify.config.json --output dist/eases.umd.min.js"
-  },
-  "testling": {
-    "files": "test.js",
-    "browsers": [
-      "ie/6..latest",
-      "chrome/22..latest",
-      "firefox/16..latest",
-      "safari/latest",
-      "opera/11.0..latest",
-      "iphone/6",
-      "ipad/6",
-      "android-browser/latest"
-    ]
   },
   "repository": {
     "type": "git",
