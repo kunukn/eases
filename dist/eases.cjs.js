@@ -1,3 +1,5 @@
+'use strict';
+
 var index = {
 	'backInOut': require('./back-in-out'),
 	'backIn': require('./back-in'),
@@ -32,4 +34,4 @@ var index = {
 	'sineOut': require('./sine-out')
 };
 
-export default index;
+module.exports = index;

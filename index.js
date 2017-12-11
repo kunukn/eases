@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	'backInOut': require('./back-in-out'),
 	'backIn': require('./back-in'),
 	'backOut': require('./back-out'),

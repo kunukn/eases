@@ -1,4 +1,4 @@
-function bounceOut(t) {
+export default function bounceOut(t) {
   var a = 4.0 / 11.0
   var b = 8.0 / 11.0
   var c = 9.0 / 10.0
@@ -17,5 +17,3 @@ function bounceOut(t) {
         ? ca * t2 - cb * t + cc
         : 10.8 * t * t - 20.52 * t + 10.72
 }
-
-module.exports = bounceOut

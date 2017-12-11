@@ -1,5 +1,3 @@
-function quadIn(t) {
+export default function quadIn(t) {
   return t * t
 }
-
-module.exports = quadIn
