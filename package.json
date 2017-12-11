@@ -12,13 +12,15 @@
     "buble": "^0.18.0",
     "rollup": "^0.52.1",
     "rollup-plugin-buble": "^0.18.0",
-    "tape": "~2.13.2"
+    "tape": "~2.13.2",
+    "uglify-js": "^3.2.2"
   },
   "scripts": {
     "test": "node test.js",
     "dev": "beefy demo/index",
     "build": "rollup -c",
-    "rollup-dev": "rollup -c -w"
+    "rollup-dev": "rollup -c -w",
+    "minify": "uglifyjs dist/eases.umd.js --config-file uglify.config.json --output dist/eases.umd.min.js"
   },
   "testling": {
     "files": "test.js",

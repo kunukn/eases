@@ -1,33 +1,85 @@
+import backInOut from './back-in-out'
+import backIn from './back-in'
+import backOut from './back-out'
+
+import bounceInOut from './bounce-in-out'
+import bounceIn from './bounce-in'
+import bounceOut from './bounce-out'
+
+import circInOut from './circ-in-out'
+import circIn from './circ-in'
+import circOut from './circ-out'
+
+import cubicInOut from './cubic-in-out'
+import cubicIn from'./cubic-in'
+import cubicOut from './cubic-out'
+
+import elasticInOut from './elastic-in-out'
+import  elasticIn from './elastic-in'
+import  elasticOut from './elastic-out'
+
+import expoInOut from './expo-in-out'
+import expoIn from './expo-in'
+import expoOut from './expo-out'
+
+import linear from './linear'
+
+import quadInOut from './quad-in-out'
+import quadIn from './quad-in'
+import quadOut from './quad-out'
+
+import quartInOut from './quart-in-out'
+import quartIn from './quart-in'
+import quartOut from './quart-out'
+
+import quintInOut from './quint-in-out'
+import quintIn from './quint-in'
+import quintOut from './quint-out'
+
+import sineInOut from './sine-in-out'
+import sineIn from './sine-in'
+import sineOut from './sine-out'
+
 export default {
-	'backInOut': require('./back-in-out'),
-	'backIn': require('./back-in'),
-	'backOut': require('./back-out'),
-	'bounceInOut': require('./bounce-in-out'),
-	'bounceIn': require('./bounce-in'),
-	'bounceOut': require('./bounce-out'),
-	'circInOut': require('./circ-in-out'),
-	'circIn': require('./circ-in'),
-	'circOut': require('./circ-out'),
-	'cubicInOut': require('./cubic-in-out'),
-	'cubicIn': require('./cubic-in'),
-	'cubicOut': require('./cubic-out'),
-	'elasticInOut': require('./elastic-in-out'),
-	'elasticIn': require('./elastic-in'),
-	'elasticOut': require('./elastic-out'),
-	'expoInOut': require('./expo-in-out'),
-	'expoIn': require('./expo-in'),
-	'expoOut': require('./expo-out'),
-	'linear': require('./linear'),
-	'quadInOut': require('./quad-in-out'),
-	'quadIn': require('./quad-in'),
-	'quadOut': require('./quad-out'),
-	'quartInOut': require('./quart-in-out'),
-	'quartIn': require('./quart-in'),
-	'quartOut': require('./quart-out'),
-	'quintInOut': require('./quint-in-out'),
-	'quintIn': require('./quint-in'),
-	'quintOut': require('./quint-out'),
-	'sineInOut': require('./sine-in-out'),
-	'sineIn': require('./sine-in'),
-	'sineOut': require('./sine-out')
+	backInOut,
+	backIn,
+	backIn,
+
+	bounceInOut,
+	bounceIn,
+	bounceOut,
+
+	circInOut,
+	circIn,
+	circOut,
+	
+	cubicInOut,
+	cubicIn,
+	cubicOut,
+
+	elasticInOut,
+	elasticIn,
+	elasticOut,
+
+	expoInOut,
+	expoIn,
+	expoOut,
+
+	linear, 
+
+	quadInOut,
+	quadIn,
+	quadOut,
+
+	quartInOut,
+	quartIn,
+	quartOut,
+
+	quintInOut,
+	quintIn,
+	quintOut,
+
+	sineInOut,
+	sineIn,
+	sineOut,
 }
