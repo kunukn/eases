@@ -37,11 +37,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mattdesl/eases.git"
+    "url": "git://github.com/kunukn/eases.git"
   },
-  "homepage": "https://github.com/mattdesl/eases",
+  "homepage": "https://github.com/kunukn/eases",
   "bugs": {
-    "url": "https://github.com/mattdesl/eases/issues"
+    "url": "https://github.com/kunukn/eases/issues"
   },
   "keywords": [
     "ease",
