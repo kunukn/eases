@@ -1,12 +1,12 @@
 {
-  "name": "eases",
+  "name": "eases-cdn",
   "version": "1.0.8",
   "description": "grab bag of easing equations",
   "main": "dist/eases.cjs.js",
   "module": "dist/eases.esm.js",
   "browser": "dist/eases.umd.js",
   "license": "MIT",
-  "author": "Matt DesLauriers <dave.des@gmail.com>",
+  "author": "Kunuk Nykjaer",
   "dependencies": {},
   "devDependencies": {
     "buble": "^0.18.0",
