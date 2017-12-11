@@ -1,5 +1,3 @@
-function linear(t) {
+export default function linear(t) {
   return t
 }
-
-module.exports = linear

@@ -3,15 +3,22 @@
   "version": "1.0.8",
   "description": "grab bag of easing equations",
   "main": "index.js",
+  "module": "dist/eases.esm.js",
+  "browser": "dist/eases.umd.js",
   "license": "MIT",
   "author": "Matt DesLauriers <dave.des@gmail.com>",
   "dependencies": {},
   "devDependencies": {
+    "buble": "^0.18.0",
+    "rollup": "^0.52.1",
+    "rollup-plugin-buble": "^0.18.0",
     "tape": "~2.13.2"
   },
   "scripts": {
     "test": "node test.js",
-    "dev": "beefy demo/index"
+    "dev": "beefy demo/index",
+    "build": "rollup -c",
+    "rollup-dev": "rollup -c -w"
   },
   "testling": {
     "files": "test.js",
