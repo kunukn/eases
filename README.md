@@ -14,6 +14,11 @@ import eases from 'eases-cdn'
 const { quadIn } from 'eases-cdn'
 ```
 
+## Graph
+
+You can see the easings graph here 
+https://codepen.io/kunukn/full/mpVJOm/
+
 ## Usage
 
 All easing functions only remap a time value, and all have the same signature.
