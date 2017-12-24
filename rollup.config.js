@@ -1,10 +1,12 @@
 import buble from 'rollup-plugin-buble';
 import pkg from './package.json';
 
+const entry = './src/index.js';
+
 export default [
   // browser-friendly UMD build
   {
-    entry: 'index.js',
+    entry: entry,
     dest: pkg.browser,
     format: 'umd',
     // sourceMap: 'inline',
@@ -22,7 +24,7 @@ export default [
   // builds from a single configuration where possible, using
   // the `targets` option which can specify `dest` and `format`)
   {
-    entry: 'index.js',
+    entry: entry,
     targets: [
       { dest: pkg.main, format: 'cjs' },
       { dest: pkg.module, format: 'es' },

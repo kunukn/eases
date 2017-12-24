@@ -16,6 +16,11 @@ function backIn(t) {
   return t * t * ((s + 1) * t - s)
 }
 
+function backOut(t) {
+  var s = 1.70158;
+  return --t * t * ((s + 1) * t + s) + 1
+}
+
 function bounceOut(t) {
   var a = 4.0 / 11.0;
   var b = 8.0 / 11.0;
@@ -165,47 +170,47 @@ function sineOut(t) {
 }
 
 var index = {
-	backInOut: backInOut,
-	backIn: backIn,
-	backIn: backIn,
+  backInOut: backInOut,
+  backIn: backIn,
+  backOut: backOut,
 
-	bounceInOut: bounceInOut,
-	bounceIn: bounceIn,
-	bounceOut: bounceOut,
+  bounceInOut: bounceInOut,
+  bounceIn: bounceIn,
+  bounceOut: bounceOut,
 
-	circInOut: circInOut,
-	circIn: circIn,
-	circOut: circOut,
-	
-	cubicInOut: cubicInOut,
-	cubicIn: cubicIn,
-	cubicOut: cubicOut,
+  circInOut: circInOut,
+  circIn: circIn,
+  circOut: circOut,
 
-	elasticInOut: elasticInOut,
-	elasticIn: elasticIn,
-	elasticOut: elasticOut,
+  cubicInOut: cubicInOut,
+  cubicIn: cubicIn,
+  cubicOut: cubicOut,
 
-	expoInOut: expoInOut,
-	expoIn: expoIn,
-	expoOut: expoOut,
+  elasticInOut: elasticInOut,
+  elasticIn: elasticIn,
+  elasticOut: elasticOut,
 
-	linear: linear, 
+  expoInOut: expoInOut,
+  expoIn: expoIn,
+  expoOut: expoOut,
 
-	quadInOut: quadInOut,
-	quadIn: quadIn,
-	quadOut: quadOut,
+  linear: linear,
 
-	quartInOut: quarticInOut,
-	quartIn: quarticIn,
-	quartOut: quarticOut,
+  quadInOut: quadInOut,
+  quadIn: quadIn,
+  quadOut: quadOut,
 
-	quintInOut: qinticInOut,
-	quintIn: qinticIn,
-	quintOut: qinticOut,
+  quartInOut: quarticInOut,
+  quartIn: quarticIn,
+  quartOut: quarticOut,
 
-	sineInOut: sineInOut,
-	sineIn: sineIn,
-	sineOut: sineOut,
+  quintInOut: qinticInOut,
+  quintIn: qinticIn,
+  quintOut: qinticOut,
+
+  sineInOut: sineInOut,
+  sineIn: sineIn,
+  sineOut: sineOut,
 };
 
 return index;

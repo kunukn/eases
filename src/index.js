@@ -43,7 +43,7 @@ import sineOut from './sine-out';
 export default {
   backInOut,
   backIn,
-  backIn,
+  backOut,
 
   bounceInOut,
   bounceIn,

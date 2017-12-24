@@ -10,6 +10,11 @@ function backIn(t) {
   return t * t * ((s + 1) * t - s)
 }
 
+function backOut(t) {
+  var s = 1.70158;
+  return --t * t * ((s + 1) * t + s) + 1
+}
+
 function bounceOut(t) {
   var a = 4.0 / 11.0;
   var b = 8.0 / 11.0;
@@ -159,47 +164,47 @@ function sineOut(t) {
 }
 
 var index = {
-	backInOut,
-	backIn,
-	backIn,
+  backInOut,
+  backIn,
+  backOut,
 
-	bounceInOut,
-	bounceIn,
-	bounceOut,
+  bounceInOut,
+  bounceIn,
+  bounceOut,
 
-	circInOut,
-	circIn,
-	circOut,
-	
-	cubicInOut,
-	cubicIn,
-	cubicOut,
+  circInOut,
+  circIn,
+  circOut,
 
-	elasticInOut,
-	elasticIn,
-	elasticOut,
+  cubicInOut,
+  cubicIn,
+  cubicOut,
 
-	expoInOut,
-	expoIn,
-	expoOut,
+  elasticInOut,
+  elasticIn,
+  elasticOut,
 
-	linear, 
+  expoInOut,
+  expoIn,
+  expoOut,
 
-	quadInOut,
-	quadIn,
-	quadOut,
+  linear,
 
-	quartInOut: quarticInOut,
-	quartIn: quarticIn,
-	quartOut: quarticOut,
+  quadInOut,
+  quadIn,
+  quadOut,
 
-	quintInOut: qinticInOut,
-	quintIn: qinticIn,
-	quintOut: qinticOut,
+  quartInOut: quarticInOut,
+  quartIn: quarticIn,
+  quartOut: quarticOut,
 
-	sineInOut,
-	sineIn,
-	sineOut,
+  quintInOut: qinticInOut,
+  quintIn: qinticIn,
+  quintOut: qinticOut,
+
+  sineInOut,
+  sineIn,
+  sineOut,
 };
 
 export default index;
